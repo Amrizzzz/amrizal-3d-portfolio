@@ -9,6 +9,11 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@babylonjs/core": "^9.28.0",
+    "@babylonjs/gui": "^9.28.0",
+    "@babylonjs/loaders": "^9.28.0",
+    "framer-motion": "^13.4.6",
+    "lucide-react": "^1.49.0",
     "next": "16.3.7",
     "react": "19.2.8",
     "react-dom": "19.2.8"
