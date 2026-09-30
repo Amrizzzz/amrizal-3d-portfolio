@@ -22,7 +22,7 @@ export const portfolioData = {
       Email: "rizalam708@gmail.com",
       LanguageProgram: "HTML, CSS, JavaScript",
       Framework: "Next.js, Vue.js, Express.js, Tailwind CSS",
-      Library: "React.js, Axios"
+      Library: "React.js, Axios, Sequelize"
     }
   },
   projects: [

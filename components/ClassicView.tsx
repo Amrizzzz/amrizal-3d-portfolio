@@ -102,7 +102,9 @@ export default function ClassicView() {
                   Explore Projects
                 </a>
                 <a
-                  href={`mailto:${about.details.Email}`}
+                  href={`https://mail.google.com/mail/?view=cm&to=${about.details.Email}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 rounded-full bg-zinc-900 border border-zinc-800 px-6 py-3 text-sm font-medium text-zinc-300 transition-all hover:bg-zinc-800 hover:text-white hover:border-zinc-700 hover:scale-105 active:scale-95"
                 >
                   <Mail size={18} />
