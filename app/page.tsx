@@ -17,7 +17,7 @@ const GalleryCanvas = dynamic(() => import("@/components/GalleryCanvas"), {
 });
 
 export default function Home() {
-  const [isClassicView, setIsClassicView] = useState(false);
+  const [isClassicView, setIsClassicView] = useState(true);
 
   return (
     <main className="relative h-screen w-full overflow-hidden">
